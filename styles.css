@@ -80,6 +80,7 @@ nav a:hover {
   grid-column: 1;
   grid-row: 1;
   background-color: black;
+  height: 562px;
 }
 
 /* Overlay text */
@@ -156,6 +157,19 @@ h2 {
 
 
 /* ----------- FAVORITES / MOVIE CARDS ----------- */
+
+.movies-hero img, .shows-hero img {
+  margin-top: 22px;
+  border-radius: 10px;
+  height: 562px;
+  width: 866px;
+  object-fit: cover;
+}
+
+.movies-hero, .shows-hero {
+  justify-self: center;
+}
+
 .card {
   background-color: #1F1F1F;
   padding: 1rem 1.5rem;
